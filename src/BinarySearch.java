@@ -11,7 +11,7 @@ public class BinarySearch {
             mid=(low+high)/2;
             guess=arrList[mid];
             if(guess==item){
-                System.out.println("Item Found at"+mid);
+                System.out.println("Item Found at "+mid);
                 return;}
             else if(guess < item)
                 low=mid+1;
